@@ -11,7 +11,6 @@ export class HelloComponent {
   list: QueryList<Target> | null = null;
 
   ngAfterContentInit() {
-    console.log('hey');
     console.log('Hello', this.list);
   }
 }
